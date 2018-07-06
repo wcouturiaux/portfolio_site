@@ -1,0 +1,33 @@
+/*font-family: 'Quicksand', sans-serif;*/
+html, body{
+	height:100%;
+	width: 100%;
+	margin: 0px;
+}
+header {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em;
+	color: black;
+}
+.header-title{
+	color: #FFFF33
+}
+.header-title span{
+	color: #FFF
+}
+
+h1{
+	letter-spacing: 0.03em;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+#menuBar{
+	background-color: #808080 ;
+	height: 100%;
+	padding: 1em;
+
+}
