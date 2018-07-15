@@ -6,30 +6,40 @@ html, body{
 	width: 100%;
 	margin: 0px;
 }
+
+
 header {
 	font-family: 'Oxygen', sans-serif;
 	font-size: 1.1vw;
 	color: black;
 
 }
+
+
 .header-title{
 	color: #0a1612;
 	text-align: -webkit-center;
 }
+
+
 .header-title span{
 	color:#FFF;
 	font-size: 1.5em;
 ;}
 
+
 h1{
 	letter-spacing: 0.03em;
 }
+
 
 .container{
 	display: flex;
 	flex-wrap: wrap;
 	height: 100%;
 }
+
+
 #menuBar{
 	background-color: #c5c1c0;
 	height: 100%;
@@ -37,6 +47,7 @@ h1{
 	padding: 1em;
 	box-sizing: border-box;
 }
+
 
 #contentPane{
 	background-color: #1a2930;
@@ -46,6 +57,7 @@ h1{
 
 }
 
+
 footer{
 	background-color: #f7ce3e;
 	text-align: center;
@@ -53,13 +65,25 @@ footer{
 	height: auto;
 	position: relative;
 }
+
+
 a{
 	padding: .2em;
 }
+
+
 #footText{
 	margin: 0px;
 	font-size: 1.5em;
 }
+
+
+.nav{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
 
 @media screen and (max-width: 1000px){
 	#menuBar{
