@@ -1,4 +1,6 @@
-/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;
+#4484CE #f19f4d #d9d9d9
+*/
 html, body{
 	height:100%;
 	width: 100%;
@@ -6,15 +8,18 @@ html, body{
 }
 header {
 	font-family: 'Oxygen', sans-serif;
-	font-size: 1em;
+	font-size: 1.1vw;
 	color: black;
+
 }
 .header-title{
-	color: #FFFF33
+	color: #0a1612;
+	text-align: -webkit-center;
 }
 .header-title span{
-	color: #FFF
-}
+	color:#FFF;
+	font-size: 1.5em;
+;}
 
 h1{
 	letter-spacing: 0.03em;
@@ -26,8 +31,50 @@ h1{
 	height: 100%;
 }
 #menuBar{
-	background-color: #808080 ;
+	background-color: #c5c1c0;
 	height: 100%;
+	width: 25%;
 	padding: 1em;
+	box-sizing: border-box;
+}
 
+#contentPane{
+	background-color: #1a2930;
+	height: 100%;
+	width: 75%;
+	color: #f7ce3e;
+
+}
+
+footer{
+	background-color: #f7ce3e;
+	text-align: center;
+	padding: .7em;
+	height: auto;
+	position: relative;
+}
+a{
+	padding: .2em;
+}
+#footText{
+	margin: 0px;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 1000px){
+	#menuBar{
+		width: 100%;
+		height: 4em;
+	}
+	#contentPane{
+		width: 100%;
+	}
+	.header-title{
+		margin: 0;
+		text-align: -webkit-left;
+	}
+	header{
+		font-size: .8em;
+	}
+	}
 }
