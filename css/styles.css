@@ -54,7 +54,12 @@ h1{
 	height: 100%;
 	width: 75%;
 	color: #f7ce3e;
+	text-align: center;
+}
 
+
+.welcome{
+	text-align: left;
 }
 
 
@@ -69,6 +74,7 @@ footer{
 
 a{
 	padding: .2em;
+	vertical-align: center;
 }
 
 
@@ -82,9 +88,34 @@ a{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	font-size: 1em;
+	display: block;
 }
 
 
+.nav span{
+	display: inline-block;
+	padding-top: .1em;
+	color: #FFF;
+
+}
+
+
+li.liAbout{
+	background: url('../images/if_info_28px.png') no-repeat left top;
+	height: 32px;
+	padding-left: 1.6em;
+	font-size: 1.3em;
+}
+
+
+li.liResume{
+	background: url('../images/if_12.File_28px.png') no-repeat left top;
+	height: 32px;
+	padding-left: 1.6em;
+	font-size: 1.3em;
+	margin-top: .7em;
+}
 @media screen and (max-width: 1000px){
 	#menuBar{
 		width: 100%;
@@ -99,6 +130,16 @@ a{
 	}
 	header{
 		font-size: .8em;
+		display: inline-block;
+	}
+	.nav span{
+		display: none;
+	}
+	nav{
+		float: right;
+	}
+	li{
+		display: inline-block;
 	}
 	}
 }
