@@ -18,7 +18,11 @@ header {
 
 }
 
-
+.logo{
+	width: 50%;
+    max-width: 375px;
+    height: auto
+}
 .header-title{
 	color: #0a1612;
 	text-align: -webkit-center;
